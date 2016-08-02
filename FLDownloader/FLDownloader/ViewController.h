@@ -1,15 +1,13 @@
 //
 //  ViewController.h
-//  FLDownloader
+//  DownloadManager
 //
-//  Created by fenglin on 16/7/26.
-//  Copyright © 2016年 cys. All rights reserved.
+//  Created by Omar on 8/2/13.
+//  Copyright (c) 2013 InfusionApps. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UITableViewController
 
 @end
-

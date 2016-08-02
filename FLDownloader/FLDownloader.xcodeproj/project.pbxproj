@@ -7,17 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AEC633EE79D9757C83D4478 /* libPods-FLDownloader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB28C0502849C766457CCF1 /* libPods-FLDownloader.a */; };
 		5102B6671D475A2B009071BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5102B6661D475A2B009071BF /* main.m */; };
 		5102B66A1D475A2B009071BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5102B6691D475A2B009071BF /* AppDelegate.m */; };
-		5102B66D1D475A2B009071BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5102B66C1D475A2B009071BF /* ViewController.m */; };
 		5102B6701D475A2B009071BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5102B66E1D475A2B009071BF /* Main.storyboard */; };
 		5102B6721D475A2B009071BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5102B6711D475A2B009071BF /* Assets.xcassets */; };
 		5102B6751D475A2B009071BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5102B6731D475A2B009071BF /* LaunchScreen.storyboard */; };
 		5102B6801D475A2B009071BF /* FLDownloaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5102B67F1D475A2B009071BF /* FLDownloaderTests.m */; };
 		5102B68B1D475A2B009071BF /* FLDownloaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5102B68A1D475A2B009071BF /* FLDownloaderUITests.m */; };
-		5102B69D1D475A3D009071BF /* GJCFFileDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5102B69A1D475A3D009071BF /* GJCFFileDownloadManager.m */; };
-		5102B69E1D475A3D009071BF /* GJCFFileDownloadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 5102B69C1D475A3D009071BF /* GJCFFileDownloadTask.m */; };
 		5102B6A11D475F30009071BF /* FLDownloadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 5102B6A01D475F30009071BF /* FLDownloadTask.m */; };
+		5108592A1D4B3D2300918CEA /* TCBlobDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 510859271D4B3D2300918CEA /* TCBlobDownloader.m */; };
+		5108592B1D4B3D2300918CEA /* TCBlobDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 510859291D4B3D2300918CEA /* TCBlobDownloadManager.m */; };
+		510859391D4B481B00918CEA /* IACacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5108592E1D4B481B00918CEA /* IACacheManager.m */; };
+		5108593A1D4B481B00918CEA /* IADownloadHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 510859301D4B481B00918CEA /* IADownloadHandler.m */; };
+		5108593B1D4B481B00918CEA /* IADownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 510859321D4B481B00918CEA /* IADownloadManager.m */; };
+		5108593C1D4B481B00918CEA /* IADownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 510859341D4B481B00918CEA /* IADownloadOperation.m */; };
+		5108593D1D4B481B00918CEA /* IASequentialDownloadHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 510859361D4B481B00918CEA /* IASequentialDownloadHandler.m */; };
+		5108593E1D4B481B00918CEA /* IASequentialDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 510859381D4B481B00918CEA /* IASequentialDownloadManager.m */; };
+		510859421D4B574100918CEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 510859401D4B574100918CEA /* ViewController.m */; };
+		510859431D4B574100918CEA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 510859411D4B574100918CEA /* ViewController.xib */; };
+		510859461D4B574600918CEA /* ImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 510859451D4B574600918CEA /* ImageCell.m */; };
+		5108594C1D4B5E5F00918CEA /* DownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5108594B1D4B5E5F00918CEA /* DownloadViewController.m */; };
+		5108594F1D4B5EA000918CEA /* DownloadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5108594E1D4B5EA000918CEA /* DownloadCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,12 +49,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13040C759E75406CC893928F /* Pods-FLDownloader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLDownloader.release.xcconfig"; path = "Pods/Target Support Files/Pods-FLDownloader/Pods-FLDownloader.release.xcconfig"; sourceTree = "<group>"; };
 		5102B6621D475A2B009071BF /* FLDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5102B6661D475A2B009071BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5102B6681D475A2B009071BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5102B6691D475A2B009071BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5102B66B1D475A2B009071BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5102B66C1D475A2B009071BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5102B66F1D475A2B009071BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5102B6711D475A2B009071BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5102B6741D475A2B009071BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,12 +64,36 @@
 		5102B6861D475A2B009071BF /* FLDownloaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLDownloaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5102B68A1D475A2B009071BF /* FLDownloaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLDownloaderUITests.m; sourceTree = "<group>"; };
 		5102B68C1D475A2B009071BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5102B6991D475A3D009071BF /* GJCFFileDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCFFileDownloadManager.h; sourceTree = "<group>"; };
-		5102B69A1D475A3D009071BF /* GJCFFileDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJCFFileDownloadManager.m; sourceTree = "<group>"; };
-		5102B69B1D475A3D009071BF /* GJCFFileDownloadTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCFFileDownloadTask.h; sourceTree = "<group>"; };
-		5102B69C1D475A3D009071BF /* GJCFFileDownloadTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJCFFileDownloadTask.m; sourceTree = "<group>"; };
 		5102B69F1D475F30009071BF /* FLDownloadTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLDownloadTask.h; sourceTree = "<group>"; };
 		5102B6A01D475F30009071BF /* FLDownloadTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLDownloadTask.m; sourceTree = "<group>"; };
+		510859251D4B3D2300918CEA /* TCBlobDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCBlobDownload.h; sourceTree = "<group>"; };
+		510859261D4B3D2300918CEA /* TCBlobDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCBlobDownloader.h; sourceTree = "<group>"; };
+		510859271D4B3D2300918CEA /* TCBlobDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCBlobDownloader.m; sourceTree = "<group>"; };
+		510859281D4B3D2300918CEA /* TCBlobDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCBlobDownloadManager.h; sourceTree = "<group>"; };
+		510859291D4B3D2300918CEA /* TCBlobDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCBlobDownloadManager.m; sourceTree = "<group>"; };
+		5108592D1D4B481B00918CEA /* IACacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IACacheManager.h; sourceTree = "<group>"; };
+		5108592E1D4B481B00918CEA /* IACacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IACacheManager.m; sourceTree = "<group>"; };
+		5108592F1D4B481B00918CEA /* IADownloadHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IADownloadHandler.h; sourceTree = "<group>"; };
+		510859301D4B481B00918CEA /* IADownloadHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IADownloadHandler.m; sourceTree = "<group>"; };
+		510859311D4B481B00918CEA /* IADownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IADownloadManager.h; sourceTree = "<group>"; };
+		510859321D4B481B00918CEA /* IADownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IADownloadManager.m; sourceTree = "<group>"; };
+		510859331D4B481B00918CEA /* IADownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IADownloadOperation.h; sourceTree = "<group>"; };
+		510859341D4B481B00918CEA /* IADownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IADownloadOperation.m; sourceTree = "<group>"; };
+		510859351D4B481B00918CEA /* IASequentialDownloadHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASequentialDownloadHandler.h; sourceTree = "<group>"; };
+		510859361D4B481B00918CEA /* IASequentialDownloadHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASequentialDownloadHandler.m; sourceTree = "<group>"; };
+		510859371D4B481B00918CEA /* IASequentialDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IASequentialDownloadManager.h; sourceTree = "<group>"; };
+		510859381D4B481B00918CEA /* IASequentialDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IASequentialDownloadManager.m; sourceTree = "<group>"; };
+		5108593F1D4B574100918CEA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		510859401D4B574100918CEA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		510859411D4B574100918CEA /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		510859441D4B574600918CEA /* ImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCell.h; sourceTree = "<group>"; };
+		510859451D4B574600918CEA /* ImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCell.m; sourceTree = "<group>"; };
+		5108594A1D4B5E5F00918CEA /* DownloadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadViewController.h; sourceTree = "<group>"; };
+		5108594B1D4B5E5F00918CEA /* DownloadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadViewController.m; sourceTree = "<group>"; };
+		5108594D1D4B5EA000918CEA /* DownloadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadCell.h; sourceTree = "<group>"; };
+		5108594E1D4B5EA000918CEA /* DownloadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadCell.m; sourceTree = "<group>"; };
+		DEE2F7C93F4D13B6A84BE2D5 /* Pods-FLDownloader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLDownloader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FLDownloader/Pods-FLDownloader.debug.xcconfig"; sourceTree = "<group>"; };
+		EBB28C0502849C766457CCF1 /* libPods-FLDownloader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FLDownloader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AEC633EE79D9757C83D4478 /* libPods-FLDownloader.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,10 +125,13 @@
 		5102B6591D475A2B009071BF = {
 			isa = PBXGroup;
 			children = (
+				5108592C1D4B481B00918CEA /* IADownloadManager */,
 				5102B6641D475A2B009071BF /* FLDownloader */,
 				5102B67E1D475A2B009071BF /* FLDownloaderTests */,
 				5102B6891D475A2B009071BF /* FLDownloaderUITests */,
 				5102B6631D475A2B009071BF /* Products */,
+				5D1655E2E261E4FDDD8350FA /* Pods */,
+				8DF18D25B655BDABE0ECC32E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,13 +148,21 @@
 		5102B6641D475A2B009071BF /* FLDownloader */ = {
 			isa = PBXGroup;
 			children = (
+				510859231D4B3D2300918CEA /* TCBlobDownload */,
 				5102B6981D475A3D009071BF /* DownloadManager */,
 				5102B6681D475A2B009071BF /* AppDelegate.h */,
 				5102B6691D475A2B009071BF /* AppDelegate.m */,
+				5108594A1D4B5E5F00918CEA /* DownloadViewController.h */,
+				5108594B1D4B5E5F00918CEA /* DownloadViewController.m */,
+				5108594D1D4B5EA000918CEA /* DownloadCell.h */,
+				5108594E1D4B5EA000918CEA /* DownloadCell.m */,
+				5108593F1D4B574100918CEA /* ViewController.h */,
+				510859401D4B574100918CEA /* ViewController.m */,
+				510859411D4B574100918CEA /* ViewController.xib */,
+				510859441D4B574600918CEA /* ImageCell.h */,
+				510859451D4B574600918CEA /* ImageCell.m */,
 				5102B69F1D475F30009071BF /* FLDownloadTask.h */,
 				5102B6A01D475F30009071BF /* FLDownloadTask.m */,
-				5102B66B1D475A2B009071BF /* ViewController.h */,
-				5102B66C1D475A2B009071BF /* ViewController.m */,
 				5102B66E1D475A2B009071BF /* Main.storyboard */,
 				5102B6711D475A2B009071BF /* Assets.xcassets */,
 				5102B6731D475A2B009071BF /* LaunchScreen.storyboard */,
@@ -155,12 +201,56 @@
 		5102B6981D475A3D009071BF /* DownloadManager */ = {
 			isa = PBXGroup;
 			children = (
-				5102B6991D475A3D009071BF /* GJCFFileDownloadManager.h */,
-				5102B69A1D475A3D009071BF /* GJCFFileDownloadManager.m */,
-				5102B69B1D475A3D009071BF /* GJCFFileDownloadTask.h */,
-				5102B69C1D475A3D009071BF /* GJCFFileDownloadTask.m */,
 			);
 			path = DownloadManager;
+			sourceTree = "<group>";
+		};
+		510859231D4B3D2300918CEA /* TCBlobDownload */ = {
+			isa = PBXGroup;
+			children = (
+				510859251D4B3D2300918CEA /* TCBlobDownload.h */,
+				510859261D4B3D2300918CEA /* TCBlobDownloader.h */,
+				510859271D4B3D2300918CEA /* TCBlobDownloader.m */,
+				510859281D4B3D2300918CEA /* TCBlobDownloadManager.h */,
+				510859291D4B3D2300918CEA /* TCBlobDownloadManager.m */,
+			);
+			path = TCBlobDownload;
+			sourceTree = "<group>";
+		};
+		5108592C1D4B481B00918CEA /* IADownloadManager */ = {
+			isa = PBXGroup;
+			children = (
+				5108592D1D4B481B00918CEA /* IACacheManager.h */,
+				5108592E1D4B481B00918CEA /* IACacheManager.m */,
+				5108592F1D4B481B00918CEA /* IADownloadHandler.h */,
+				510859301D4B481B00918CEA /* IADownloadHandler.m */,
+				510859311D4B481B00918CEA /* IADownloadManager.h */,
+				510859321D4B481B00918CEA /* IADownloadManager.m */,
+				510859331D4B481B00918CEA /* IADownloadOperation.h */,
+				510859341D4B481B00918CEA /* IADownloadOperation.m */,
+				510859351D4B481B00918CEA /* IASequentialDownloadHandler.h */,
+				510859361D4B481B00918CEA /* IASequentialDownloadHandler.m */,
+				510859371D4B481B00918CEA /* IASequentialDownloadManager.h */,
+				510859381D4B481B00918CEA /* IASequentialDownloadManager.m */,
+			);
+			path = IADownloadManager;
+			sourceTree = "<group>";
+		};
+		5D1655E2E261E4FDDD8350FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEE2F7C93F4D13B6A84BE2D5 /* Pods-FLDownloader.debug.xcconfig */,
+				13040C759E75406CC893928F /* Pods-FLDownloader.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8DF18D25B655BDABE0ECC32E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBB28C0502849C766457CCF1 /* libPods-FLDownloader.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,9 +260,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5102B68F1D475A2B009071BF /* Build configuration list for PBXNativeTarget "FLDownloader" */;
 			buildPhases = (
+				8CF26689679156EEAB2BF0E8 /* [CP] Check Pods Manifest.lock */,
 				5102B65E1D475A2B009071BF /* Sources */,
 				5102B65F1D475A2B009071BF /* Frameworks */,
 				5102B6601D475A2B009071BF /* Resources */,
+				1F5768BD1098155F3AE80B57 /* [CP] Embed Pods Frameworks */,
+				B01EFD4168C73EA0C30F1948 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -269,6 +362,7 @@
 			files = (
 				5102B6751D475A2B009071BF /* LaunchScreen.storyboard in Resources */,
 				5102B6721D475A2B009071BF /* Assets.xcassets in Resources */,
+				510859431D4B574100918CEA /* ViewController.xib in Resources */,
 				5102B6701D475A2B009071BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,17 +383,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F5768BD1098155F3AE80B57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FLDownloader/Pods-FLDownloader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CF26689679156EEAB2BF0E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B01EFD4168C73EA0C30F1948 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FLDownloader/Pods-FLDownloader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5102B65E1D475A2B009071BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5102B66D1D475A2B009071BF /* ViewController.m in Sources */,
-				5102B69D1D475A3D009071BF /* GJCFFileDownloadManager.m in Sources */,
+				510859391D4B481B00918CEA /* IACacheManager.m in Sources */,
 				5102B66A1D475A2B009071BF /* AppDelegate.m in Sources */,
-				5102B69E1D475A3D009071BF /* GJCFFileDownloadTask.m in Sources */,
+				5108593C1D4B481B00918CEA /* IADownloadOperation.m in Sources */,
+				5108593E1D4B481B00918CEA /* IASequentialDownloadManager.m in Sources */,
+				5108592B1D4B3D2300918CEA /* TCBlobDownloadManager.m in Sources */,
+				5108593D1D4B481B00918CEA /* IASequentialDownloadHandler.m in Sources */,
+				510859421D4B574100918CEA /* ViewController.m in Sources */,
+				5108593B1D4B481B00918CEA /* IADownloadManager.m in Sources */,
+				5108594C1D4B5E5F00918CEA /* DownloadViewController.m in Sources */,
+				5108592A1D4B3D2300918CEA /* TCBlobDownloader.m in Sources */,
 				5102B6A11D475F30009071BF /* FLDownloadTask.m in Sources */,
+				510859461D4B574600918CEA /* ImageCell.m in Sources */,
+				5108593A1D4B481B00918CEA /* IADownloadHandler.m in Sources */,
 				5102B6671D475A2B009071BF /* main.m in Sources */,
+				5108594F1D4B5EA000918CEA /* DownloadCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,10 +591,12 @@
 		};
 		5102B6901D475A2B009071BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEE2F7C93F4D13B6A84BE2D5 /* Pods-FLDownloader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FLDownloader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cheyaoshi.FLDownloader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -452,10 +605,12 @@
 		};
 		5102B6911D475A2B009071BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13040C759E75406CC893928F /* Pods-FLDownloader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FLDownloader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cheyaoshi.FLDownloader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
