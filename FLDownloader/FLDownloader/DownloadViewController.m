@@ -17,14 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    if (true) NSLog(@"AAAAAA");
-    
-    
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+  NSLog(@"AAAAAAA");
+    if (true) NSLog(@"BBB");
 }
 
 - (void)didReceiveMemoryWarning {
